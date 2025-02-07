@@ -1,7 +1,13 @@
-EduFlowTech - Student Attendance Management System
+
+
+**EduFlowTech** - Student Attendance Management System
+
+------
 
 📌 Project Overview
 EduFlowTech is a Student Attendance Management System designed to streamline attendance tracking and subject management. Built using Spring Boot, Hibernate, and MySQL, this modular system ensures efficient record-keeping and seamless user interaction.
+
+-------
 
 🚀 Features
 ✔ Student Management: Register, update, and manage student details.
@@ -10,6 +16,8 @@ EduFlowTech is a Student Attendance Management System designed to streamline att
 ✔ Attendance Tracking: Log and retrieve attendance records.
 ✔ RESTful APIs: Endpoints for efficient data access and integration.
 
+------
+
 🛠️ Tech Stack
 🔹 Backend: Java, Spring Boot
 🔹 Database: MySQL
@@ -17,11 +25,15 @@ EduFlowTech is a Student Attendance Management System designed to streamline att
 🔹 Testing: Postman
 🔹 Architecture: Layered (Controller, Service, Repository)
 
+------
+
 📂 Modules
 🔸 Student Controller: Manages student-related operations.
 🔸 Subject Controller: Handles subject assignments and retrieval.
 🔸 User Controller: Manages user authentication and roles.
 🔸 Attendance Record Controller: Handles attendance tracking.
+
+------
 
 🔧 Installation & Setup
 ➡ Clone the repository:
@@ -31,6 +43,8 @@ EduFlowTech is a Student Attendance Management System designed to streamline att
 ➡ Configure application.properties for MySQL connection.
 ➡ Build and run the application:
   mvn spring-boot:run
+
+  ------
   
 📖 API Endpoints
 Endpoint	Method	Description
@@ -39,4 +53,3 @@ Endpoint	Method	Description
 /attendance	POST	Record student attendance
 /users/login	POST	User authentication
 
----
